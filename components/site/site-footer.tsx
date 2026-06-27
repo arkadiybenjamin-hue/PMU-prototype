@@ -1,13 +1,13 @@
 import { Camera, AtSign, MapPin, Phone, Mail } from 'lucide-react'
 
 const QUICK_LINKS = [
-  { label: 'Services', href: '#services' },
-  { label: 'About', href: '#about' },
-  { label: 'Process', href: '#process' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'Reviews', href: '#reviews' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Book a Consultation', href: '#consultation' },
+  { label: 'Services', href: '/services' },
+  { label: 'About', href: '/#about' },
+  { label: 'Process', href: '/#process' },
+  { label: 'Gallery', href: '/#gallery' },
+  { label: 'Reviews', href: '/#reviews' },
+  { label: 'FAQ', href: '/#faq' },
+  { label: 'Book a Consultation', href: '/#consultation' },
 ]
 
 export function SiteFooter() {

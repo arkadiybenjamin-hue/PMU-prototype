@@ -14,12 +14,12 @@ import {
 } from '@/components/ui/sheet'
 
 const NAV_LINKS = [
-  { label: 'Services', href: '#services' },
-  { label: 'About', href: '#about' },
-  { label: 'Process', href: '#process' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'Reviews', href: '#reviews' },
-  { label: 'FAQ', href: '#faq' },
+  { label: 'Services', href: '/services' },
+  { label: 'About', href: '/#about' },
+  { label: 'Process', href: '/#process' },
+  { label: 'Gallery', href: '/#gallery' },
+  { label: 'Reviews', href: '/#reviews' },
+  { label: 'FAQ', href: '/#faq' },
 ]
 
 export function SiteNav() {
@@ -57,7 +57,7 @@ export function SiteNav() {
         className="mx-auto flex h-20 max-w-[1200px] items-center justify-between px-6"
       >
         <a
-          href="#top"
+          href="/"
           className="font-heading text-[22px] font-light tracking-wide text-gold"
         >
           Maison Lumière
